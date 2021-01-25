@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #666;
+  font-size: 16px;
+  line-height: 2;
+  background: #fff;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;;
+}
+
+header{
+  text-align: center;
+}
+
+a {
+  color: #666;
+  transition: 0.3s;
+}
+
+#logo img{
+  width: 400px;
+  margin: 40px auto 40px;
+}
+
+#logo_about img{
+  width: 400px;
+  margin: 40px auto 40px;
+}
+
+#container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 3%;
+}
+
+#mainimg img{
+  border-radius: 10px;
+}
+
+#mainimg {
+  text-align: center;
+}
+
+#menubar { 
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.nav-bar {
+  width: 100px;
+  display: inline-block;
+  padding: 50px 10px 30px 10px;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+h2 {
+  background-color: #D08148;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  border-radius: 10px;
+  padding: 10px 0 10px 20px;
+}
+
+#new dt{
+  float: left;
+  font-weight: bold;
+  width: 8em;
+}
+
+#new dl {
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+#new dd {
+  padding-left: 8em;
+}
+
+h3 {
+  border: 1px solid #666;
+  border-radius: 10px;
+  padding: 10px 10px 10px 20px;
+  font-weight: 100;
+}
+
+p {
+  padding: 0 30px;
+  font-weight: 400;
+}
+
+.sufficiently{
+  color: #D08148;
+  font-weight: 700;
+}
+
+.template{
+  padding: 0 0 0 30px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+small {
+  padding-top: 30px;
+}
+
+.span_footer {
+  font-size: 12px;
+  padding-top: 30px;
+}
+
+#menubar_about { 
+  text-align: center;
+  font-size: 18px;
+}
+
+#logo_about {
+  
+}
+
+ul {
+  list-style: none;
+}
+
+#menubar li {
+  display: inline;
+}
+
+#menubar li a{
+  text-decoration: none;
+  padding: 15px 30px;
+}
+
+.ta1, .ta1 td, .ta1 th {
+  word-break: break-all;
+  border: 1px solid #999;
+  padding: 10px;
+}
+
+.ta1 {
+  table-layout: fixed;
+  width: 100%;
+  margin: 0 auto 20px;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 100%;
+  border-spacing: 0;
+}
+
+.ta1 caption {
+  border: 1px solid #999;
+  border-bottom: none;
+  text-align: left;
+  background: #eee;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.ta1 th {
+  text-align: center;
+  width: 30%;
+}
+
+a {
+  
+}

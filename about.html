@@ -21,7 +21,7 @@
           <li><a href="home.html" class="nav-bar">Home</a></li>
           <li><a href="about.html"class="nav-bar">About</a></li>
           <li><a class="nav-bar">Gallery</a> </li>
-          <li><a class="nav-bar">Link</a></li>
+          <li><a href="link.html">Link</a></li>
         </ul>
       </nav>
       <div class="contents">
@@ -71,64 +71,75 @@
           <h3>初心者向けマニュアル公開中</h3>
           <p>テンプレートの編集方法、画像加工、無料サーバーを使ってサイトを公開するなど動画をまじえてわかりやすく解説しています。<br><a href="#">初心者向けマニュアルはこちら。</a></p>
           <h3>titleタグ、copyright、metaタグ、他の設定</h3>
-          
+          <p><span class="sufficiently">
+            ■titleタグの設定はとても重要です。念入りにワードを選んで適切に入力しましょう。
+          </span><br>
+          まず、htmlソースが見れる状態にして、上から６行目あたりにある、<br>
+          <span class="look">&lt;title>初心者向けホームページテンプレート tp_beginner5&lt;/title></span><br>
+          あなたのホームページ名が「SAMPLE SITE」だとすれば、<br>
+          <span class="look">&lt;title>SAMPLE SITE&lt;/title></span><br>
+          とすればＯＫです。</p>
+          <p>
+            <span class="sufficiently">■copyrightを変更しましょう。</span><br>
+            続いてhtmlの下の方にある、<br>
+            <span class="look">Copyright© SAMPLE SITE All Rights Reserved.</span><br>
+            の「SAMPLE SITE」部分もあなたのサイト名に変更します。
+          </p>
+          <p>
+            <span class="sufficiently">■metaタグを変更しましょう。</span><br>htmlソースが見える状態にしてmetaタグを変更しましょう。
+            <p>ソースの上の方に、<br>
+              <span class="look">content="ここにサイト説明を入れます"</span><br>
+              という部分がありますので、テキストをサイトの説明文に入れ替えます。検索結果の文面に使われる場合もありますので、見た人が来訪したくなるような説明文を簡潔に書きましょう。
+            </p>
+            <p>
+            続いて、その下の行の<br>
+            <span class="look">content="キーワード１,キーワード２,～～～"</span><br>
+            も設定します。ここはサイトに関係のあるキーワードを入れる箇所です。10個前後ぐらいあれば充分です。キーワード間はカンマ「,」で区切ります。
+          </p>
+          <p>
+            <span class="sufficiently">■ロゴ画像のalt指定と、ロゴ画像本体も変更しましょう。</span><br>
+            html側に<br>
+            <span class="look">&lt;img src="images/logo.png" alt="SAMPLE SITE"></span><br>
+            となっている箇所があるので、ここのalt指定(SAMPLE SITE)もあなたのサイト名に変更しましょう。
+          </p>
+            
+          <p>
+            ロゴ画像本体については、baseフォルダに文字なしの土台画像「logo.png」が入っているので、画像ソフトなど使ってあなたのサイト名を入れて、imagesフォルダに上書きしましょう。このロゴ画像、HPで見るサイズよりかなり大きく感じると思いますが、高解像度の端末でピンボケさせない為に適当に大きくしてあります。
+          </p>
+
+          <p>
+            レイアウト上のロゴの大きさは、cssフォルダのstyle.cssの<br>
+            <span class="sufficiently">
+              /*ヘッダー（ロゴが入った最上段のブロック）
+            </span><br>
+            のブロックで設定されている、<br>
+            <span class="sufficiently">
+              #logo img
+            </span><br>
+            にあるwidthの値で変更可能です。css下の方に小さな端末用の設定がある場合もあるのでそちらも確認して下さい。
+          </p>
+        </section>
+        <section>
+          <h3>その他、テンプレートのカラーやデザイン変更などは</h3>
+          <p>
+            cssフォルダのstyle.cssで行って下さい。詳しい解説も書かれています。<br>
+            cssの解説は、「<span class="color1">/*</span>」と「<span class="color1">/*</span>」の間にコメントとして入れています。「<span class="color1">/*</span>」と[<span class="color1">/*</span>」はcss用のコメントタグであり、飾りではないので削除をしないで下さい。もし解説を削除したい場合は、<br>
+            「<span class="color1">/*</span>」と「<span class="color1">/*</span>」含めて丸ごと削除して下さい。
+          </p>
+        </section>
+        <section>
+          <h3>うまく編集できない場合は</h3>
+          <p><a href="#">サポート掲示板</a>からご質問下さい。対応可能な範囲内でサポートしております。</p>
         </section>
       </div>
-
-
-
-
-
-
-
-
-
-■titleタグの設定はとても重要です。念入りにワードを選んで適切に入力しましょう。
-まず、htmlソースが見れる状態にして、上から６行目あたりにある、
-<title>初心者向けホームページテンプレート tp_beginner5</title>
-を編集しましょう。
-あなたのホームページ名が「SAMPLE SITE」だとすれば、
-<title>SAMPLE SITE</title>
-とすればＯＫです。
-
-■copyrightを変更しましょう。
-続いてhtmlの下の方にある、
-Copyright© SAMPLE SITE All Rights Reserved.
-の「SAMPLE SITE」部分もあなたのサイト名に変更します。
-
-■metaタグを変更しましょう。
-htmlソースが見える状態にしてmetaタグを変更しましょう。
-
-ソースの上の方に、
-content="ここにサイト説明を入れます"
-という部分がありますので、テキストをサイトの説明文に入れ替えます。検索結果の文面に使われる場合もありますので、見た人が来訪したくなるような説明文を簡潔に書きましょう。
-
-続いて、その下の行の
-content="キーワード１,キーワード２,～～～"
-も設定します。ここはサイトに関係のあるキーワードを入れる箇所です。10個前後ぐらいあれば充分です。キーワード間はカンマ「,」で区切ります。
-
-■ロゴ画像のalt指定と、ロゴ画像本体も変更しましょう。
-html側に
-<img src="images/logo.png" alt="SAMPLE SITE">
-となっている箇所があるので、ここのalt指定(SAMPLE SITE)もあなたのサイト名に変更しましょう。
-
-ロゴ画像本体については、baseフォルダに文字なしの土台画像「logo.png」が入っているので、画像ソフトなど使ってあなたのサイト名を入れて、imagesフォルダに上書きしましょう。
-このロゴ画像、HPで見るサイズよりかなり大きく感じると思いますが、高解像度の端末でピンボケさせない為に適当に大きくしてあります。
-
-レイアウト上のロゴの大きさは、cssフォルダのstyle.cssの
-/*ヘッダー（ロゴが入った最上段のブロック）
-のブロックで設定されている、
-#logo img
-にあるwidthの値で変更可能です。css下の方に小さな端末用の設定がある場合もあるのでそちらも確認して下さい。
-
-その他、テンプレートのカラーやデザイン変更などは
-cssフォルダのstyle.cssで行って下さい。詳しい解説も書かれています。
-cssの解説は、「/*」と「*/」の間にコメントとして入れています。「/*」と「*/」はcss用のコメントタグであり、飾りではないので削除をしないで下さい。もし解説を削除したい場合は、「/*」と「*/」含めて丸ごと削除して下さい。
-
-うまく編集できない場合は
-サポート掲示板からご質問下さい。対応可能な範囲内でサポートしております。
-
-Copyright© SAMPLE SITE All Rights Reserved.
-《Web Design:Template-Party》
+      <footer>
+        <small>
+          Copyright© <a>SAMPLE SITE</a> All Rights Reserved.<br>
+        </small>
+        <span class="span_footer">
+          《<a>Web Design:Template-Party</a>》
+        </span>
+      </footer>
+    </div>
   </body>
 </html>
